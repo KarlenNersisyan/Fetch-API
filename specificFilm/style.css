@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 0, 255, 0.753);
+  text-align: center;
+  color: whitesmoke;
+}
+.container-general {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  box-shadow: 0 0 50px white;
+}
+.container-films {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0 0 50px black;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 25px;
+}
+.container-films:hover {
+  transform: scaleY(1.02);
+  box-shadow: 0 0 50px white;
+}
+.nameColor {
+  color: black;
+}
